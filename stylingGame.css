@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container {
+    height: 70%;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainBox {
+    height: 60vh;
+    width: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.playBox {
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    border: none;
+    height: 18vh;
+    width: 18vh;
+    font-size: 10px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+#resetGameButton { 
+    padding: 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.newGameBtn {
+    position: absolute;
+    padding: 30px;
+    left: 150px;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.winningMsgContainer {
+    position: absolute;
+    right: 100px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hide {
+    display: none;
+}
